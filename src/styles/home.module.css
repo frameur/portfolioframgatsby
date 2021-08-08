@@ -1,24 +1,41 @@
-.header{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 40px;
-    align-items: center;
-}
-.header h2{
-    font-size: 4em;
-}
-.header h3{
-    font-size: 3em;
-    font-weight: 400;
-    margin-bottom: 20px;
+.header {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 40px;
+  align-items: center;
+
 }
 
-  .btn{
+.header img {
+  align-items: center;
+
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  text-shadow: 5px 5px 5px aliceblue;
+}
+
+.header h2 {
+  font-size: 4em;
+
+}
+
+.header h3 {
+  font-size: 3em;
+  font-weight: 400;
+  margin-bottom: 20px;
+
+}
+
+.btn {
   background: #d42990;
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  width: 40%;
+  width: 50%;
   font-weight: 600;
   text-align: center;
   transform-style: preserve-3d;
@@ -27,29 +44,29 @@
   padding: 10px 16px;
   border-radius: 10px;
   margin-top: 20px;
-    
-  }
-  .btn::after{
-    content: 'Mon Portfolio Projects';
-    border: 3px solid #d42990;
-    color: white;
-    width: 86%;
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    transform-origin: center top;
-    transform: rotateX(90deg);
-    padding: 10px 16px;
-    border-radius: 10px;
-    margin-top: 20px;
-    font-weight: 600;
-    
-  }
-  
-  .btn:hover{
-    transform: translate(100%);
-    transform: rotateX(-90deg);
-    text-decoration: none;
-  }
-  
+
+}
+
+.btn::after {
+  content: 'Mes Projets';
+  border: 3px solid #d42990;
+  color: white;
+  width: 90%;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform-origin: center top;
+  transform: rotateX(90deg);
+  padding: 10px 16px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-weight: 600;
+
+}
+
+.btn:hover {
+  transform: translate(100%);
+  transform: rotateX(-90deg);
+  text-decoration: none;
+}
