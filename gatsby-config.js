@@ -7,10 +7,10 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-    'gatsby-transformer-remark',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    
+    "gatsby-transformer-remark",
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
+
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,9 +27,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: 'Web Frameur',
-    description: 'web dev portfolio',
-    copyright: 'Web Frameur',
-    contact: 'frameurram@gmail.com'
-  }
+    title: "R.Créaweb",
+    description: "web dev portfolio",
+    copyright: "Web Frameur",
+    contact: "frameurram@gmail.com",
+  },
 }
