@@ -12,19 +12,19 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: red;
   text-shadow: 5px 5px 5px aliceblue;
 }
 
 .header h2 {
-  font-size: 4em;
+  font-size: 4rem;
 
 }
 
 .header h3 {
-  font-size: 3em;
+  font-size: 2rem;
   font-weight: 400;
   margin-bottom: 20px;
 
@@ -35,7 +35,7 @@ h1 {
   display: inline-block;
   color: #fff;
   text-decoration: none;
-  width: 50%;
+  width: 30%;
   font-weight: 600;
   text-align: center;
   transform-style: preserve-3d;
@@ -51,14 +51,14 @@ h1 {
   content: 'Mes Projets';
   border: 3px solid #d42990;
   color: white;
-  width: 90%;
+  width: 85%;
   display: block;
   position: absolute;
   left: 0;
   top: 0;
   transform-origin: center top;
   transform: rotateX(90deg);
-  padding: 10px 16px;
+  padding: 10px 15px;
   border-radius: 10px;
   margin-top: 20px;
   font-weight: 600;
@@ -69,4 +69,36 @@ h1 {
   transform: translate(100%);
   transform: rotateX(-90deg);
   text-decoration: none;
+}
+
+@media only screen and (max-width:600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .header h2 {
+    font-size: 2rem;
+  }
+
+  .header h3 {
+    font-size: 20px;
+  }
+
+  .btn {
+    width: 70%;
+  }
+
+  .btn::after {
+    font-size: 100%;
+    padding: 10px 12px;
+  }
+
+  .header p {
+    font-size: 0.7rem;
+  }
+
+  .links a {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
