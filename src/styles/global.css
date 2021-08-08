@@ -38,8 +38,8 @@ p {
 
 .navGene {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  grid-template-columns: 30% 70%;
+  margin: 30px auto;
 }
 
 .navGene .links {
