@@ -12,19 +12,19 @@
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: red;
   text-shadow: 5px 5px 5px aliceblue;
 }
 
 .header h2 {
-  font-size: 4rem;
+  font-size: 5rem;
 
 }
 
 .header h3 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 400;
   margin-bottom: 20px;
 
@@ -71,7 +71,7 @@ h1 {
   text-decoration: none;
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:700px) {
   h1 {
     font-size: 1.5rem;
     margin-left: 5px;
