@@ -6,25 +6,31 @@ export default function About() {
   return (
     <Layout>
       <div>
-        <h2 style={{ textAlign: "center", margin: "20px" }}>About Page</h2>
+        <h2 style={{ textAlign: "center", margin: "20px" }}>
+          Au sujet des logiciels
+        </h2>
         <p>
-          <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h4>{" "}
-          Excepturi ipsa saepe a magnam ea, vel sequi veritatis quia.
-          Exercitationem deleniti cumque consequuntur. Assumenda culpa vero in
-          atque, numquam provident asperiores eius nemo hic beatae ipsa
-          repudiandae possimus? Consequatur, ut quis quos amet fugit commodi.
-          Magnam quasi enim eveniet pariatur ad expedita, obcaecati consequatur
-          rem odio natus temporibus nihil aut velit vero impedit harum, ullam
-          molestias laudantium. Animi deleniti reprehenderit ipsa explicabo ex
-          optio nesciunt eum dicta cupiditate non a fugiat quod enim omnis,
-          eaque corporis error praesentium atque at autem necessitatibus iusto!
-          Doloribus molestias sed eius. Quos harum quidem sed! Aliquam sapiente
-          ratione assumenda doloremque voluptatum veritatis nisi repellendus
-          numquam tempora itaque nostrum necessitatibus odio, saepe labore fuga
-          architecto provident illo est adipisci doloribus quis ullam
-          perspiciatis iure incidunt. Repellat in omnis nobis non hic beatae?
-          Nemo fugiat eius eligendi, ut magni blanditiis, explicabo maiores
-          facilis, necessitatibus impedit possimus error!
+          <h4>SKETCHBOOK</h4> Sketchbook (anciennement StudioPaint, Autodesk
+          SketchBook), est une application logicielle graphique raster destinée
+          au dessin expressif et à l’esquisse de concept également pour la
+          réalisation d’animations (Jelly Boo, Teatralka). Le logiciel a d’abord
+          été développé par Alias Systems Corporation sous le nom de
+          StudioPaint, avant d’être acquis par Autodesk, puis d’être transformé
+          en une société indépendante, Sketchbook, Inc. Développé à l’origine en
+          tant que logiciel commercial, il a évolué vers un modèle d’abonnement
+          avant d’être finalement transformé en logiciel gratuit pour un usage
+          personnel.
+        </p>
+        <h4>PHOTOSHOP</h4>
+        <p>
+          Photoshop est un logiciel de retouche, de traitement et de dessin
+          assisté par ordinateur, lancé en 1990 sur MacOS puis en 1992 sur
+          Windows. Édité par Adobe, il est principalement utilisé pour le
+          traitement des photographies numériques, mais sert également à la
+          création ex nihilo d’images. Il travaille essentiellement sur images
+          matricielles car les images sont constituées d’une grille de points
+          appelés pixels. L’intérêt de ces images est de reproduire des
+          gradations subtiles de couleurs.
         </p>
       </div>
 
