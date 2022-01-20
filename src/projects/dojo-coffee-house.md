@@ -1,9 +1,9 @@
 ---
-title: The Dojo Coffee House
+title: The David Bowie
 stack: HTML & CSS
 slug: the-dojo-coffee-house
 date: 2021-01-01T00:00:00+00:00
-thumb: ../images/thumbs/coffee.png
+thumb: ../images/thumbs/bowie.png
 featuredImg: ../images/featured/coffee-banner.png
 ---
 
