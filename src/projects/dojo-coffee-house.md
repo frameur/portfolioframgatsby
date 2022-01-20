@@ -1,6 +1,6 @@
 ---
 title: The David Bowie
-stack: HTML & CSS
+stack: sketchbook
 slug: the-dojo-coffee-house
 date: 2021-01-01T00:00:00+00:00
 thumb: ../images/thumbs/bowie.png

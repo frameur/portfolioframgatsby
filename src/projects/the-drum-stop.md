@@ -1,9 +1,9 @@
 ---
-title: The Drum Stop
-stack: Next.js
+title: The Projet Tattoo
+stack: sketchbook
 slug: the-drum-stop
 date: 2021-01-18T00:00:00+00:00
-thumb: ../images/thumbs/drums.png
+thumb: ../images/thumbs/prison1.png
 featuredImg: ../images/featured/drums-banner.png
 ---
 

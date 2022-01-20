@@ -31,9 +31,7 @@ const Projects = ({ data }) => {
             </Link>
           ))}
         </div>
-        <p style={{ textAlign: "center" }}>
-          Likewhat you see? email me at {contact} for a quote!
-        </p>
+        <p style={{ textAlign: "center" }}>{contact}</p>
       </div>
     </Layout>
   )
